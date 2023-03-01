@@ -1,12 +1,8 @@
 import React from "react";
+import Body from "../components/Body";
 
 function ContactUs() {
-  return (
-    <div>
-      return{" "}
-      <div className="bg-zinc-900 mt-72 text-white">This is Contact Us</div>
-    </div>
-  );
+  return <Body>This is Contact Us page</Body>;
 }
 
 export default ContactUs;

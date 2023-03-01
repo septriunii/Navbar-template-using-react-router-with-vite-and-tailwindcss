@@ -1,11 +1,7 @@
 import React from "react";
-
+import Body from "../components/Body";
 function About() {
-  return (
-    <div>
-      return <div className="bg-zinc-900 mt-72 text-white">This is About</div>;
-    </div>
-  );
+  return <Body>This is About page</Body>;
 }
 
 export default About;

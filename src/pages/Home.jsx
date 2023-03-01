@@ -4,7 +4,7 @@ import Body from "../components/Body";
 function Home() {
   return (
     <div>
-      <Body>Hello</Body>
+      <Body>This is the Homepage</Body>
     </div>
   );
 }

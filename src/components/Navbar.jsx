@@ -23,7 +23,7 @@ function Navbar() {
             </li>
             <li>
               <Link to="/contactus" className=" p-2 cursor-pointer">
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
