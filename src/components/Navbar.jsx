@@ -6,7 +6,9 @@ function Navbar() {
     <>
       <div className="bg-slate-800 flex justify-between items-center p-3 text-white mb-3">
         <div className=" flex items-center ">
-          <div className="h-8 w-8 bg-slate-600 mr-5 p-2 cursor-pointer"></div>
+          <Link to="/">
+            <div className="h-8 w-8 bg-slate-600 mr-5 p-2 cursor-pointer"></div>
+          </Link>
           <h1 className="font-bold">React Router</h1>
         </div>
         <div className="">
@@ -17,8 +19,8 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/about" className=" p-2 cursor-pointer">
-                About
+              <Link to="/products" className=" p-2 cursor-pointer">
+                Products
               </Link>
             </li>
             <li>
