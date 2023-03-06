@@ -2,7 +2,7 @@ import React from "react";
 
 function Body({ children }) {
   return (
-    <div className="bg-neutral-900 mx-3 flex justify-center items-center mt-3 min-h-screen  p-3">
+    <div className="bg-neutral-900 mx-3 flex mt-3 min-h-screen  p-3">
       {children}
     </div>
   );
