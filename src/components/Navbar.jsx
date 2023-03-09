@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="bg-slate-800 flex justify-between items-center p-3 text-white mb-3">
+      <div className="bg-slate-800 flex justify-between items-center p-3 text-white">
         <div className=" flex items-center ">
           <Link to="/">
             <div className="h-8 w-8 bg-slate-600 mr-5 p-2 cursor-pointer"></div>
           </Link>
-          <h1 className="font-bold">React Router</h1>
+          <h1 className="font-bold">DarkHaul</h1>
         </div>
         <div className="">
           <ul className="flex gap-12 ">
             <li>
-              <Link to="/" className=" p-2 cursor-pointer">
+              <Link to="/home" className=" p-2 cursor-pointer">
                 Home
               </Link>
             </li>
@@ -26,6 +26,11 @@ function Navbar() {
             <li>
               <Link to="/contactus" className=" p-2 cursor-pointer">
                 Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className=" p-2 cursor-pointer">
+                Logout
               </Link>
             </li>
           </ul>
